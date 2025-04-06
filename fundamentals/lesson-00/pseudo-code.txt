@@ -1,0 +1,10 @@
+Big mistake many do and regret later:
+
+    jumping right into coding and solving problems, WITHOUT thinking about it beforehand.
+
+
+Why does it matter?
+
+    the core concept of programming is to solve problems, how can you solve a problem
+    when you don't even understand the problem? how can you give the solution to a machine
+    when you don't have it in your head?

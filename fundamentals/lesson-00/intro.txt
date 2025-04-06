@@ -1,0 +1,26 @@
+python is used for:
+
+.    web development (server-side/backend),
+.    software development,
+.    mathematics,
+.    system scripting.
+
+Python Syntax compared to other programming languages:
+
+.    Python was designed for readability, and has some similarities to the English language with influence from mathematics.
+.    Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.
+.    Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.
+
+
+Python Install
+
+    Many PCs and Macs will have python already installed.
+
+    To check if you have python installed on a Windows PC, search in the start bar for Python or run the following on the Command Line (cmd.exe):
+---> C:\Users\Your-Name> python --version
+
+Python Quickstart
+    The way to run a python file is like this on the command line:
+    C:\Users\Your Name>python helloworld.py
+
+

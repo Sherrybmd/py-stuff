@@ -21,7 +21,9 @@ def plusMinus(arr):
     negratio = neg/max
     zerratio = zer/max
 
-    print(format(posratio, '.6f'), format(negratio, '.6f'), format(zerratio, '.6f'))
+    print(format(posratio, '.6f'))
+    print(format(negratio, '.6f'))
+    print(format(zerratio, '.6f'))
 
 arr = [1,1,0,-1,-1]
 

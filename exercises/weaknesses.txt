@@ -1,0 +1,2 @@
+1_ list methods, specially in 2d arrays
+2_ sorting arrays efficiently

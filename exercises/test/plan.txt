@@ -1,0 +1,22 @@
+bubble sort
+
+start
+
+take array and store
+
+have num1, num2, temp = 0
+
+take arr[i] as first num from array, store in num1
+
+take second = arr[i+1] from array, store in num2
+
+if num1 is more than num2
+    first = first+1
+    second = first+1
+
+else if num2 is more than num1
+    temp = num1
+    num1 = num2
+    num2 = temp
+
+increase the indexes by 1

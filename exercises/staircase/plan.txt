@@ -1,0 +1,29 @@
+'''
+x = 1
+
+start
+
+take number of rows and columns and store as n
+
+
+create rows:
+    rows = []
+    columns = []
+    for index in range(0,n):
+    rows[index] = column
+
+if not at last row then for each row:
+
+    for row in rows:
+
+        for index in range(0, n-x):
+            row = row.append(" ")
+
+        for index in range(n-x, n):
+            row = row.append("#")
+
+        x += 1
+
+
+
+'''

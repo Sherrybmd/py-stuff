@@ -1,6 +1,15 @@
 
 num = 5
 
-string = "text"
+mystring = "Text"
 
-print(num, string)
+# print(num, mystring)
+
+# print(num * mystring)
+
+#print(mystring[0])
+
+# print(string[4])
+
+
+

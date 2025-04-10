@@ -1,3 +1,4 @@
+
 '''
     this is a multiline comment
     you can write as many lines as you like
@@ -5,19 +6,23 @@
 
 '''
 
-# variable
-# a string variable
+                        # string
 mystring = "this is a string"
 
+                        #int
 myint = 15
+                        # float
+myfloat = 15.95
 
-myfloat = 15.00
-
-
+                        # bool
 mybool = True
 mybool2 = False
 
+                        # char
 mychar = ''
+
+
+
 
 
 

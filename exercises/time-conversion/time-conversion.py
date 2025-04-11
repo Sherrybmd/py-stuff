@@ -13,29 +13,25 @@ import sys
 
 def timeConversion(s):
 
-
-    # s[0:2]
-
     section = s[-2:]  # grab PM/AM
     mytime = s[:-2]     # grab 00:00:00 time
 
     hour = int(mytime[:2])
 
+
     if section == 'PM':
-        print("true")
 
         if hour < 12:
             hour += 12
-        hour = str(hour)
 
+        hour = str(hour)
         mytime = mytime.replace(mytime[:2], hour)
+
 
     elif section == 'AM':
 
-        print("false")
         if hour < 12:
-
-            if hour < 10:
+            if hour < 10:        # put 0 for one digit hours
 
                 hour = str(hour)
                 hour = '0' + hour
@@ -47,10 +43,7 @@ def timeConversion(s):
             hour = '00'
 
         hour = str(hour)
-        print(hour)
         mytime = mytime.replace(mytime[:2], hour)
-
-
 
     return mytime
 

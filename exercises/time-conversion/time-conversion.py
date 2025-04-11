@@ -13,17 +13,8 @@ import sys
 
 def timeConversion(s):
 
-    c = s.split(":")
-    string = ""
 
-    for item in c:
-        for letter in item:
-            if letter.isalpha():
-                string += letter   # grab PM/AM
-                letter.replace("")
 
-    hours, minutes, seconds = c
-    print(hours, minutes, seconds)
     '''
     AM -> 00:00:00 till 12:00:00
     PM -> 12:00:00 till 00:00:00

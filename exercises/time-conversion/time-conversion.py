@@ -14,15 +14,47 @@ import sys
 def timeConversion(s):
 
 
+    # s[0:2]
 
-    '''
-    AM -> 00:00:00 till 12:00:00
-    PM -> 12:00:00 till 00:00:00
-    '''
+    section = s[-2:]  # grab PM/AM
+    mytime = s[:-2]     # grab 00:00:00 time
 
-    return c
+    hour = int(mytime[:2])
+
+    if section == 'PM':
+        print("true")
+
+        if hour < 12:
+            hour += 12
+        hour = str(hour)
+
+        mytime = mytime.replace(mytime[:2], hour)
+
+    elif section == 'AM':
+
+        print("false")
+        if hour < 12:
+
+            if hour < 10:
+
+                hour = str(hour)
+                hour = '0' + hour
 
 
-s = '12:01:01PM'
+        elif hour == 12:
+
+            hour = str(hour)
+            hour = '00'
+
+        hour = str(hour)
+        print(hour)
+        mytime = mytime.replace(mytime[:2], hour)
+
+
+
+    return mytime
+
+
+s = '12:01:01AM'
 
 print(timeConversion(s))

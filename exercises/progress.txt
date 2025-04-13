@@ -1,2 +1,6 @@
-birthday cake candles
-https://www.hackerrank.com/challenges/birthday-cake-candles/problem?isFullScreen=true
+encryption
+https://www.hackerrank.com/challenges/encryption/problem
+
+
+numpy stuff
+https://www.hackerrank.com/challenges/np-polynomials/problem?isFullScreen=true

@@ -6,6 +6,8 @@ with open("/home/sherry/repos/py-stuff/iranian-dictionary/raw-source/raw.txt") a
 
     for line in file:
         num = num + 1
+        # enter repeated pre text here
+        # {num} is the only changed thing, incrementing number
         text = f'<div class="nmlst">{num}) <strong><a href="../'
 
         if text in line:

@@ -1,3 +1,4 @@
+
 def fizzBuzz(n):
     answer = ""
     dic = {
@@ -13,5 +14,5 @@ def fizzBuzz(n):
         print(answer or num)
 
 
-fizzBuzz(100)
+fizzBuzz(1000000)
 

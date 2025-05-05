@@ -1,4 +1,3 @@
-
 '''
 1_ start
 2_ take plain text and store

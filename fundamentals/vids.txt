@@ -1,0 +1,8 @@
+DS PLAYLIST:
+    https://www.youtube.com/playlist?list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12
+array:
+    https://www.youtube.com/watch?v=gDqQf4Ekr2A
+
+linkedlist:
+    https://www.youtube.com/watch?v=Nq7ok-OyEpg
+    https://www.youtube.com/watch?v=qp8u-frRAnU&list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12&index=50

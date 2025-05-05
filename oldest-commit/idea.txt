@@ -1,0 +1,6 @@
+github moves commits by 35, so in theory i can automatically move
+commits by 35 until its not available, then move back to find oldest
+commit.
+
+with this you can quickly checkout the project by following
+the first commit to latest
